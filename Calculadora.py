@@ -35,8 +35,8 @@ class Calculadora:
             return a / b
         
     def Potencia_2(self, a : float = 0):
-        if (math.isnan(a) or math.isnan(b)):
-            raise ValueError("a y b no puede ser nan: not a number")
+        if (math.isnan(a)):
+            raise ValueError("a no puede ser nan: not a number")
         else:
             return a ** 2
         
